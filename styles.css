@@ -1,0 +1,130 @@
+/* Archivo styles.css */
+
+/* Estilos generales para móviles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* Fondo general */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; /* Centrar el texto */
+    font-style: italic; /* Letra cursiva */
+}
+
+.save-the-date-container {
+    display: flex;
+    flex-direction: column; /* El diseño será una columna */
+    background-color: #F5F5DC;
+    border-radius: 10px;
+    width: 90%; /* Margen lateral */
+    max-width: 400px; /* Limitar el ancho para móviles */
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra para darle estilo */
+    margin: 0 5%; /* Margen lateral */
+}
+
+.text-section {
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+    color: #000;
+}
+
+.save-date-title {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+hr {
+    width: 40px;
+    border: 1px solid #000;
+    margin: 10px auto; /* Centramos el separador */
+}
+
+.date {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.names {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+}
+
+.name1, .name2 {
+    font-weight: bold;
+}
+
+.details {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+    color: black;
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+.place a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+}
+
+.location {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.formal-invitation {
+    font-size: 0.9rem;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto; /* Ajustar la imagen sin distorsión */
+    object-fit: cover;
+  
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alinear verticalmente al centro */
+    padding: 20px;
+    background-color: #F5F5DC;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra para darle estilo */
+}
+
+.contact-info {
+    flex: 1; /* Ocupa el espacio disponible */
+    padding-right 20: ; /* Espacio a la derecha */
+    font-size: 14px;
+
+}
+
+.background-image {
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+}
+
+.background-image img {
+    max-width: 100%; /* Ajustar la imagen sin distorsión */
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto-centrado  {
+    text-align: center;
+    margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+    padding: 20px;
+}
